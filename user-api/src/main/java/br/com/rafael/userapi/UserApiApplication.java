@@ -24,7 +24,7 @@ public class UserApiApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		userRepository.saveAll(List.of(
-				new User(null, "Valdir Cezar", "valdir@gmail.com", "12345", 20.0),
+				new User(null, "Valdir Cezar", "valdir@gmail.com", "12345", 30.0),
 				new User(null, "Rafael Gonzaga", "rafael@gmail.com", "524100", 25.0)
 				));
 		
