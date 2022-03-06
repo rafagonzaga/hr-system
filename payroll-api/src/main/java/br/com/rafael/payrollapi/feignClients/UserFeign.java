@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import br.com.rafael.payrollapi.domain.User;
 
-@FeignClient(name="user-api", url="http://localhost:8000") // é o nome dado no application.yml do projeto user-api
+@FeignClient(name="user-api") // é o nome dado no application.yml do projeto user-api
 public interface UserFeign {
 	
 	@GetMapping(value = "/api/users/{id}")
